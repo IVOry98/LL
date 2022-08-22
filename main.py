@@ -30,7 +30,7 @@ def get_count():
   return delta.days
 
 def get_renshi():
-  delta1 = today - datetime.strptime(renshi, "%Y-%m-%d")
+  delta = today - datetime.strptime(renshi, "%Y-%m-%d")
   return delta.days
 
 #def get_birthday():
